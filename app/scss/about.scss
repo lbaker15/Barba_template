@@ -1,0 +1,16 @@
+.gridAbout {
+    display: grid;
+    width: 100vw;
+    grid-template-columns: repeat(4, 25vw);
+    grid-template-rows: 100vh;
+}
+.movingTransitionTwo {
+    background: red;
+    width: 1vw;
+    height: 100vh;
+    position: absolute;
+    margin-top: 0;
+    margin-left: 100vw;
+    z-index: -1;
+    display: none;
+}
